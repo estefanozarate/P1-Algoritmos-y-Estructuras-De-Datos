@@ -92,6 +92,7 @@ manim -qk  HashTableVideo.py HashTableVideo
 `/media/videos/HashTableVideo/2160p60/HashTableVideo.mp4` (MPEG-4 / H.264).
 
 ### Pesos de los videos compilados en funcion de sus calidades [480p | 1080p60 | 2160p60]
+*En esta captura usando el comando `ls -lh */HashTableVideos.mp4` se puede apreciar las diferencias en los pesos de los archivos en funcion de su calidad (480p15 | 1080p60 | 2160p60)*
 ![Compilacion 1080p60](assets/file_sizes.png)
 ## Estructura del código
 El script de Python3 `HashTableVideo.py` contiene una sola escena, `HashTableVideo`, dividida en un método por sección
