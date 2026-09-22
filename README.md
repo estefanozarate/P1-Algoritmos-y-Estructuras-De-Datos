@@ -21,7 +21,7 @@ la resolución de colisiones y el costo de cada operación. Duración aproximada
 2. Motivación: búsqueda lineal O(n) frente a calcular la posición con h(k), O(1).
 3. Estructura: array de m buckets y factor de carga α = n/m. Todos los ejemplos usan
    códigos de alumno UTEC (formato AÑO-xx-xxx, por ejemplo 202612345) como claves.
-4. Funciones hash: método de la división (y el error de usar solo el año del código), multiplicativo de [Knuth](https://stackoverflow.com/questions/11871245/knuths-multiplicative-hash), Fibonacci hashing,
+4. Funciones hash: método de la división (y el error de usar solo el año del código), [multiplicativo de Knuth](https://stackoverflow.com/questions/11871245/knuths-multiplicative-hash), Fibonacci hashing,
    y las usadas en la industria (PostgreSQL `hash_any()`, Java HashMap y C++ `std::unordered_map`).
 5. Resolución de colisiones por encadenamiento (listas enlazadas), como en `std::unordered_map`.
 6. Direccionamiento abierto: sondeo lineal, cluster primario, sondeo cuadrático,
