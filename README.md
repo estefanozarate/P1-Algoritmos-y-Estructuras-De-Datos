@@ -62,10 +62,13 @@ manim -pql HashTableVideo.py HashTableVideo
 ```bash
 manim -qh  HashTableVideo.py HashTableVideo
 ```
+![Compilacion 480p](assets/compilacion_480p.png)
 ## Este ultimo paso es opcional: Compilar el video en la version 4K
 ```bash
 manim -qk  HashTableVideo.py HashTableVideo
 ```
+### Output esperado:
+
 ## Los videos compilados quedan almacenados en la siguiente ruta relativa del proyecto
 `media/videos/hash_table/1080p60/HashTableVideo.mp4` (MPEG-4 / H.264).
 
