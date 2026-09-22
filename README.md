@@ -94,7 +94,7 @@ manim -qk  HashTableVideo.py HashTableVideo
 ### Pesos de los videos compilados en funcion de sus calidades [480p | 1080p60 | 2160p60]
 ![Compilacion 1080p60](assets/file_sizes.png)
 ## Estructura del código
-`hash_table.py` contiene una sola escena, `HashTableVideo`, dividida en un método por sección
+El script de Python3 `HashTableVideo.py` contiene una sola escena, `HashTableVideo`, dividida en un método por sección
 (`intro`, `funciones_hash`, `encadenamiento`, `open_addressing`, etc.). Los valores numéricos
 que aparecen en pantalla (división, Knuth, Fibonacci hashing) se calculan en tiempo de ejecución,
 así que son exactos.
