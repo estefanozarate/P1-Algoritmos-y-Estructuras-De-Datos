@@ -52,7 +52,6 @@ duplica su tamaño y reinserta todas las claves (rehash), con costo amortizado O
 ## Software requerido
 
 - [Python 3.9](https://www.python.org/)
-- [FFmpeg](https://ffmpeg.org/)
 - [Excalidraw](https://excalidraw.com/)
 - [Manim Community v0.18 o superior](https://www.manim.community/) (`pip install -r requirements.txt`)
 
