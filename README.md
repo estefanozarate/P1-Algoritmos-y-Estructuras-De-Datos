@@ -1,6 +1,7 @@
 # Tabla hash y Sus Principales Operaciones
 
 Proyecto 1 · CS2023 Algoritmos y Estructuras de Datos · UTEC
+**Profesor:** Luciano A. Romero Calla
 
 **Autores:** 
 - Estefano Zárate  100%
