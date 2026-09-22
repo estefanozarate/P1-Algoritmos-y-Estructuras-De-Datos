@@ -58,15 +58,19 @@ pip install -r requirements.txt
 ```bash
 manim -pql HashTableVideo.py HashTableVideo
 ```
+![Compilacion 480p](assets/compilacion_480p.png)
 ## Compilar el video en la version 1080p60 (se abre al terminar)
 ```bash
 manim -qh  HashTableVideo.py HashTableVideo
 ```
-![Compilacion 480p](assets/compilacion_480p.png)
+![Compilacion 1080p60](assets/compilacion_1080p60.png)
 ## Este ultimo paso es opcional: Compilar el video en la version 4K
 ```bash
 manim -qk  HashTableVideo.py HashTableVideo
 ```
+![Compilacion 4K](assets/compilacion_4k.png)
+
+
 ### Output esperado:
 
 ## Los videos compilados quedan almacenados en la siguiente ruta relativa del proyecto
