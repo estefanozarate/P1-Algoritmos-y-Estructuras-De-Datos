@@ -3,8 +3,8 @@
 Proyecto 1 · CS2023 Algoritmos y Estructuras de Datos · UTEC
 
 **Autores:** 
-- Estefano Zárate  $100%$
-- Ignacio Álvarez  $100%$
+- Estefano Zárate  100%
+- Ignacio Álvarez  100%
 
 Animación hecha con [Manim Community](https://www.manim.community/) que explica paso a paso
 cómo funciona una tabla hash: su estructura, las funciones hash más usadas en la industria,
