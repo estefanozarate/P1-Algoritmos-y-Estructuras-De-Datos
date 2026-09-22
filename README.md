@@ -1,4 +1,4 @@
-# Tabla hash y Sus Principales Pperaciones
+# Tabla hash y Sus Principales Operaciones
 
 Proyecto 1 · CS2023 Algoritmos y Estructuras de Datos · UTEC
 
