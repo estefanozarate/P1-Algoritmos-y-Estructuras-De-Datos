@@ -16,7 +16,7 @@ cómo funciona una tabla hash: su estructura, las funciones hash más usadas en 
 la resolución de colisiones y el costo de cada operación. Duración aproximada: 1 minuto 51 segundos.
 
 ## Enlace del video
-Para la entrega del video usamos la plataforma *Google Drive* compilandolo en su maxima resolucion posible 4K: [HashTable4K](https://drive.google.com/file/d/1kK1xhFyZmYV-s9qsPJRuhoOfJF90c2_z/view?usp=sharing)
+Acceso al video en su maxima resolucion en *Google Drive*: [HashTable4K](https://drive.google.com/file/d/1kK1xhFyZmYV-s9qsPJRuhoOfJF90c2_z/view?usp=sharing)
 
 ## Contenido del video
 
