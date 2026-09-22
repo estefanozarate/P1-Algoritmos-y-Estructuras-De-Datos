@@ -1,6 +1,7 @@
 # Tabla hash y Sus Principales Operaciones
 
 Proyecto 1 · CS2023 Algoritmos y Estructuras de Datos · UTEC
+
 ![UTEC](assets/UTEC_Logo.png)
 
 **Profesor:** 
