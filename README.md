@@ -77,10 +77,18 @@ manim -qk  HashTableVideo.py HashTableVideo
 ![Compilacion 4K](assets/compilacion_4k.png)
 
 ## Los videos compilados quedan almacenados en la siguiente ruta relativa del proyecto
-`media/videos/hash_table/1080p60/HashTableVideo.mp4` (MPEG-4 / H.264).
+### Video 480p
+`/media/videos/HashTableVideo/480p15/HashTableVideo.mp4` (MPEG-4 / H.264).
 
+### Video 1080p60
+`/media/videos/HashTableVideo/1080p60/HashTableVideo.mp4` (MPEG-4 / H.264).
+
+### Video 2160p60
+`/media/videos/HashTableVideo/2160p60/HashTableVideo.mp4` (MPEG-4 / H.264).
+
+### Pesos de los videos compilados en funcion de sus calidades [480p | 1080p60 | 2160p60]
+![Compilacion 1080p60](assets/file_sizes.png)
 ## Estructura del código
-
 `hash_table.py` contiene una sola escena, `HashTableVideo`, dividida en un método por sección
 (`intro`, `funciones_hash`, `encadenamiento`, `open_addressing`, etc.). Los valores numéricos
 que aparecen en pantalla (división, Knuth, Fibonacci hashing) se calculan en tiempo de ejecución,
