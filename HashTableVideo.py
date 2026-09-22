@@ -2,9 +2,9 @@
 Tabla hash y sus principales operaciones
 CS2023 - Algoritmos y Estructuras de Datos (UTEC)
 Autores: Estefano Zárate, Ignacio Álvarez
-Preview rápido:    manim -pql hash_table.py HashTableVideo
-Render (1080p60):  manim -qh  hash_table.py HashTableVideo
-Render (4K):       manim -qk  hash_table.py HashTableVideo
+Preview rápido:    manim -pql HashTableVideo.py HashTableVideo
+Render (1080p60):  manim -qh  HashTableVideo.py HashTableVideo
+Render (4K):       manim -qk  HashTableVideo.py HashTableVideo
 """
 
 import math
