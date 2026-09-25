@@ -21,16 +21,15 @@ Acceso al video en su maxima resolucion en *Google Drive*: [HashTable4K](https:/
 ## Contenido del video
 
 1. Título y autores.
-2. Motivación: búsqueda lineal O(n) frente a calcular la posición con h(k), O(1).
-3. Estructura: array de m buckets y factor de carga α = n/m. Todos los ejemplos usan
-   códigos de alumno UTEC (formato AÑO-xx-xxx, por ejemplo 202612345) como claves.
+2. Motivación: búsqueda lineal O(n) vs calcular la posición con h(k), O(1).
+3. Estructura: array de m buckets y factor de carga α = n/m
 4. Funciones hash: método de la división (y el error de usar solo el año del código), [multiplicativo de Knuth](https://stackoverflow.com/questions/11871245/knuths-multiplicative-hash), Fibonacci hashing,
    y las usadas en la industria ([PostgreSQL](https://www.postgresql.org/) `hash_any()`, Java HashMap y C++ `std::unordered_map`).
 5. Resolución de colisiones por encadenamiento (listas enlazadas), como en `std::unordered_map`.
 6. Direccionamiento abierto: sondeo lineal, cluster primario, sondeo cuadrático,
    doble hashing y eliminación con *tombstones*.
-7. Costo de las operaciones (promedio y peor caso).
-8. Rehashing con `max_load_factor()` = 1.0 (C++) y costo amortizado.
+7. Costo de las operaciones.
+8. Rehashing con `max_load_factor()`
 9. Comparación de sondeos esperados frente a α.
 10. Créditos.
 
