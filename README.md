@@ -36,7 +36,7 @@ Acceso al video en su maxima resolucion en *Google Drive*: [HashTable4K](https:/
 
 ## La estructura de datos
 
-Una tabla hash organiza información en pares de clave y valor dentro de un arreglo con $m$ casillas (buckets). Su pieza central es la función hash $h(k)$, que calcula la posición exacta para cada clave, haciendo que insertar, buscar o eliminar datos tome un tiempo promedio prácticamente instantáneo ($O(1)$).
+Una tabla hash organiza información en pares de clave y valor dentro de un arreglo con $m$ casillas (buckets). Su pieza central es la función hash $h(k)$, que calcula la posición exacta para cada clave, haciendo que insertar, buscar o eliminar datos tome un tiempo promedio prácticamente instantáneo $(O(1))$ .
 
 | Operación | Promedio        | Peor caso |
 |-----------|-----------------|-----------|
