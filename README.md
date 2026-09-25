@@ -36,12 +36,7 @@ Acceso al video en su maxima resolucion en *Google Drive*: [HashTable4K](https:/
 
 ## La estructura de datos
 
-Una tabla hash guarda pares clave-valor en un array de `m` buckets. Una función hash `h(k)`
-convierte cada clave en un índice, así que insertar, buscar y eliminar cuestan O(1) en promedio.
-Cuando dos claves caen en el mismo índice (colisión), se resuelve de una de dos formas:
-encadenando en listas enlazadas o buscando otra celda libre (direccionamiento abierto).
-El rendimiento depende del factor de carga α = n/m. Cuando α supera un umbral, la tabla
-duplica su tamaño y reinserta todas las claves (rehash), con costo amortizado O(1).
+Una tabla hash organiza información en pares de clave y valor dentro de un arreglo con $m$ casillas (buckets). Su pieza central es la función hash $h(k)$, que calcula la posición exacta para cada clave, haciendo que insertar, buscar o eliminar datos tome un tiempo promedio prácticamente instantáneo ($O(1)$).
 
 | Operación | Promedio        | Peor caso |
 |-----------|-----------------|-----------|
